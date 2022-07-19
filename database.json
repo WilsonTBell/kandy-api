@@ -1,0 +1,476 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wilson@wilson.com",
+      "fullName": "Wilson Bell",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "email": "turdwrassler@catfish.net",
+      "fullName": "Christian Suriano",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "email": "leahcim@landoffar.com",
+      "fullName": "Robert Parker",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "email": "tiff@3dprint.edu",
+      "fullName": "Tiffany Smith",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "email": "barracuda@medicomassage.gov",
+      "fullName": "Stephen Smith",
+      "isStaff": true
+    },
+    {
+      "fullName": "Jeff Goldblum",
+      "email": "j@j.com",
+      "isStaff": true,
+      "id": 6
+    },
+    {
+      "fullName": "Stevie Wonder",
+      "email": "w@w.com",
+      "isStaff": true,
+      "id": 7
+    },
+    {
+      "fullName": "Theo Von",
+      "email": "v@v.com",
+      "isStaff": true,
+      "id": 8
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 2,
+      "loyaltyNumber": 1101
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "loyaltyNumber": 1102
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "locationId": 1,
+      "startDate": "04/05/2018",
+      "payRate": "20/hr"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "locationId": 2,
+      "startDate": "10/22/2019",
+      "payRate": "15/hr"
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "locationId": 3,
+      "startDate": "08/17/2020",
+      "payRate": "13/hr"
+    },
+    {
+      "locationId": 3,
+      "startDate": "2022-07-23",
+      "payRate": "12/hr",
+      "userId": 6,
+      "id": 4
+    },
+    {
+      "locationId": 3,
+      "startDate": "2022-07-23",
+      "payRate": "23/hr",
+      "userId": 7,
+      "id": 5
+    },
+    {
+      "locationId": 1,
+      "startDate": "2022-07-28",
+      "payRate": "2/hr",
+      "userId": 8,
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple Fritter",
+      "typeId": 1,
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "Cheese Danish",
+      "typeId": 1,
+      "price": 4.99
+    },
+    {
+      "id": 3,
+      "name": "Brownie",
+      "typeId": 1,
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Turtle",
+      "typeId": 2,
+      "price": 3.99
+    },
+    {
+      "id": 5,
+      "name": "Truffle",
+      "typeId": 2,
+      "price": 4.99
+    },
+    {
+      "id": 6,
+      "name": "Peanut Butter Cup",
+      "typeId": 2,
+      "price": 1.99
+    },
+    {
+      "id": 7,
+      "name": "Cinammon Sucker",
+      "typeId": 3,
+      "price": 2.99
+    },
+    {
+      "id": 8,
+      "name": "Strawberry Lolly",
+      "typeId": 3,
+      "price": 2.49
+    },
+    {
+      "id": 9,
+      "name": "Rainbow Swirl",
+      "typeId": 3,
+      "price": 3.25
+    },
+    {
+      "id": 10,
+      "name": "Latte",
+      "typeId": 4,
+      "price": 4.99
+    },
+    {
+      "id": 11,
+      "name": "Espresso",
+      "typeId": 4,
+      "price": 3.99
+    },
+    {
+      "id": 12,
+      "name": "Capuccino",
+      "typeId": 4,
+      "price": 4.49
+    },
+    {
+      "name": "Haystack",
+      "typeId": 2,
+      "price": "1.99",
+      "id": 14
+    },
+    {
+      "name": "Jawbreaker",
+      "typeId": 3,
+      "price": "0.50",
+      "id": 15
+    },
+    {
+      "name": "Donut",
+      "typeId": 1,
+      "price": "2.99",
+      "id": 16
+    },
+    {
+      "name": "Belgian Goat Chocolate",
+      "typeId": 2,
+      "price": "12.99",
+      "id": 17
+    },
+    {
+      "name": "Pop Rocks",
+      "typeId": 3,
+      "price": "1.50",
+      "id": 18
+    },
+    {
+      "name": "Zombie Brains",
+      "typeId": 4,
+      "price": 3.99,
+      "id": 19
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Pastry"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 4,
+      "name": "Beverage"
+    }
+  ],
+  "purchasedProducts": [],
+  "purchases": [],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Toadsuck Turtle Tavern",
+      "address": "271 Bethel Mae Rd",
+      "squareFeet": 300
+    },
+    {
+      "id": 2,
+      "name": "Hot Coffee Coffee Cave",
+      "address": "126 Gilmer Rd",
+      "squareFeet": 296
+    },
+    {
+      "id": 3,
+      "name": "Nutbush Nougat",
+      "address": "486 Harry Truman Lane",
+      "squareFeet": 300
+    }
+  ],
+  "locationInventory": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1,
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "productId": 1,
+      "quantity": 8
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "productId": 1,
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "locationId": 1,
+      "productId": 2,
+      "quantity": 0
+    },
+    {
+      "id": 5,
+      "locationId": 2,
+      "productId": 2,
+      "quantity": 4
+    },
+    {
+      "id": 6,
+      "locationId": 3,
+      "productId": 2,
+      "quantity": 0
+    },
+    {
+      "id": 7,
+      "locationId": 1,
+      "productId": 3,
+      "quantity": 4
+    },
+    {
+      "id": 8,
+      "locationId": 2,
+      "productId": 3,
+      "quantity": 6
+    },
+    {
+      "id": 9,
+      "locationId": 3,
+      "productId": 3,
+      "quantity": 0
+    },
+    {
+      "id": 10,
+      "locationId": 1,
+      "productId": 4,
+      "quantity": 12
+    },
+    {
+      "id": 11,
+      "locationId": 2,
+      "productId": 4,
+      "quantity": 3
+    },
+    {
+      "id": 12,
+      "locationId": 3,
+      "productId": 4,
+      "quantity": 9
+    },
+    {
+      "id": 13,
+      "locationId": 1,
+      "productId": 5,
+      "quantity": 15
+    },
+    {
+      "id": 14,
+      "locationId": 2,
+      "productId": 5,
+      "quantity": 0
+    },
+    {
+      "id": 15,
+      "locationId": 3,
+      "productId": 5,
+      "quantity": 3
+    },
+    {
+      "id": 16,
+      "locationId": 1,
+      "productId": 6,
+      "quantity": 0
+    },
+    {
+      "id": 17,
+      "locationId": 2,
+      "productId": 6,
+      "quantity": 0
+    },
+    {
+      "id": 18,
+      "locationId": 3,
+      "productId": 6,
+      "quantity": 8
+    },
+    {
+      "id": 19,
+      "locationId": 1,
+      "productId": 7,
+      "quantity": 0
+    },
+    {
+      "id": 20,
+      "locationId": 2,
+      "productId": 7,
+      "quantity": 0
+    },
+    {
+      "id": 21,
+      "locationId": 3,
+      "productId": 7,
+      "quantity": 4
+    },
+    {
+      "id": 22,
+      "locationId": 1,
+      "productId": 8,
+      "quantity": 0
+    },
+    {
+      "id": 23,
+      "locationId": 2,
+      "productId": 8,
+      "quantity": 6
+    },
+    {
+      "id": 24,
+      "locationId": 3,
+      "productId": 8,
+      "quantity": 7
+    },
+    {
+      "id": 25,
+      "locationId": 1,
+      "productId": 9,
+      "quantity": 0
+    },
+    {
+      "id": 26,
+      "locationId": 2,
+      "productId": 9,
+      "quantity": 0
+    },
+    {
+      "id": 27,
+      "locationId": 3,
+      "productId": 9,
+      "quantity": 3
+    },
+    {
+      "id": 28,
+      "locationId": 1,
+      "productId": 10,
+      "quantity": 0
+    },
+    {
+      "id": 29,
+      "locationId": 2,
+      "productId": 10,
+      "quantity": 8
+    },
+    {
+      "id": 30,
+      "locationId": 3,
+      "productId": 10,
+      "quantity": 0
+    },
+    {
+      "id": 31,
+      "locationId": 1,
+      "productId": 11,
+      "quantity": 0
+    },
+    {
+      "id": 32,
+      "locationId": 2,
+      "productId": 11,
+      "quantity": 24
+    },
+    {
+      "id": 33,
+      "locationId": 3,
+      "productId": 11,
+      "quantity": 0
+    },
+    {
+      "id": 34,
+      "locationId": 1,
+      "productId": 12,
+      "quantity": 0
+    },
+    {
+      "id": 35,
+      "locationId": 2,
+      "productId": 12,
+      "quantity": 12
+    },
+    {
+      "id": 36,
+      "locationId": 3,
+      "productId": 12,
+      "quantity": 0
+    }
+  ]
+}
